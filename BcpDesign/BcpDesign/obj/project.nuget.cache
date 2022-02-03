@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "t5uzbKa/H0DsbVI3X6x2z5UGfJ26s3/XpeFbJ0HC5DaEkIKFgk7B3B5IWMP9THTcNvYj58STZQ9S5aME+pSkvA==",
+  "success": true,
+  "projectFilePath": "D:\\Xamarin\\BcpDesign\\BcpDesign\\BcpDesign\\BcpDesign.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\josec\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\josec\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\josec\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Users\\josec\\.nuget\\packages\\xamarin.forms\\5.0.0.2337\\xamarin.forms.5.0.0.2337.nupkg.sha512",
+    "C:\\Users\\josec\\.nuget\\packages\\xamarin.forms.animationnavigation\\2.0.0\\xamarin.forms.animationnavigation.2.0.0.nupkg.sha512",
+    "C:\\Users\\josec\\.nuget\\packages\\xforms.plugin.animationnavigationpage\\1.0.8\\xforms.plugin.animationnavigationpage.1.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

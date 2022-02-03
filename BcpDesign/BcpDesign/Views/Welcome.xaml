@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BcpDesign.Views.Welcome"
+             NavigationPage.HasNavigationBar="False"
+             xmlns:local="clr-namespace:BcpDesign.Effects"
+             >
+    <ContentPage.Effects>
+        <local:StatusBarEffect 
+            BackgroundColor="#0041C4"
+            isLight="False"
+            />
+    </ContentPage.Effects>
+    <ContentPage.Content>
+
+        <ScrollView>
+
+            <StackLayout BackgroundColor="#0041C4"
+                         Padding="25,0,25,40"
+                         >
+
+                <StackLayout
+                    VerticalOptions="EndAndExpand">
+                    <Label
+                        Text="Welcome"
+                        TextColor="White"
+                        FontSize="35"
+                        FontAttributes="Bold"
+                        Margin="0,0,0,18"
+                        ></Label>
+                    <Label
+                        Text="Manage your expenses"
+                        TextColor="White"
+                        FontSize="Medium"></Label>
+                    <Label
+                        Text="seamlessly and intuitively"
+                        TextColor="White"
+                        FontSize="Medium"
+                        FontAttributes="Bold"></Label>
+
+                    <Button
+                        Text="Sign in with Google"
+                        TextTransform="None"
+                        FontSize="Body"
+                        TextColor="#0040C1"
+                        BackgroundColor="White"
+                        WidthRequest="200"
+                        CornerRadius="15"
+                        Margin="0,40,0,0"
+                        Clicked="EventSign"
+                        ></Button>
+
+                    <Button
+                        Text="Create an account"
+                        TextTransform="None"
+                        FontSize="Body"
+                        BackgroundColor="#0040C1"
+                        BorderColor="White"
+                        TextColor="White"
+                        WidthRequest="250"
+                        CornerRadius="15"
+                        BorderWidth="1"
+                        Margin="0,10,0,15"
+                        Clicked="EventSignUp"
+                        ></Button>
+
+                    <StackLayout
+                        Orientation="Horizontal"
+                        HorizontalOptions="Center"
+                        >
+
+                        <Label
+                            Text="Already have an account?"
+                            TextColor="#6C8ED0"
+                        ></Label>
+                        <Label
+                            Text="Sign in"
+                            FontAttributes="Bold"
+                            TextColor="White"></Label>
+
+                    </StackLayout>
+
+                </StackLayout>
+
+            </StackLayout>
+        </ScrollView>
+        
+    </ContentPage.Content>
+</ContentPage>

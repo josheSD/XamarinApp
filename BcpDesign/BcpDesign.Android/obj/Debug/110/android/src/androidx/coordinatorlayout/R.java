@@ -151,7 +151,7 @@ public final class R {
 		public static final int top = 0x7f0801ce;
 	}
 	public static final class integer {
-		public static final int status_bar_notification_info_maxnum = 0x7f09001f;
+		public static final int status_bar_notification_info_maxnum = 0x7f09001c;
 	}
 	public static final class layout {
 		public static final int custom_dialog = 0x7f0b001f;

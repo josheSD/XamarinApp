@@ -1,5 +1,4 @@
 ﻿using BcpDesign.Views;
-using FormsControls.Base;
 using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -11,7 +10,7 @@ namespace BcpDesign
         public App()
         {
             InitializeComponent();
-            MainPage = new AnimationNavigationPage(new Welcome());
+            MainPage = new NavigationPage(new Welcome());
         }
 
         protected override void OnStart()

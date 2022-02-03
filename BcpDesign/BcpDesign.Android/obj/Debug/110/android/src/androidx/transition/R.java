@@ -750,9 +750,9 @@ public final class R {
 	public static final class integer {
 		public static final int abc_config_activityDefaultDur = 0x7f090000;
 		public static final int abc_config_activityShortDur = 0x7f090001;
-		public static final int cancel_button_image_alpha = 0x7f090007;
-		public static final int config_tooltipAnimTime = 0x7f090009;
-		public static final int status_bar_notification_info_maxnum = 0x7f09001f;
+		public static final int cancel_button_image_alpha = 0x7f090004;
+		public static final int config_tooltipAnimTime = 0x7f090006;
+		public static final int status_bar_notification_info_maxnum = 0x7f09001c;
 	}
 	public static final class layout {
 		public static final int abc_action_bar_title_item = 0x7f0b0000;

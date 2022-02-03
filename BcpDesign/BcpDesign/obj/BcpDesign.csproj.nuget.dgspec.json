@@ -51,10 +51,6 @@
               "version": "[2.0.3, )",
               "autoReferenced": true
             },
-            "XForms.Plugin.AnimationNavigationPage": {
-              "target": "Package",
-              "version": "[1.0.8, )"
-            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.6.1, )"
@@ -62,10 +58,6 @@
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[5.0.0.2337, )"
-            },
-            "Xamarin.Forms.AnimationNavigation": {
-              "target": "Package",
-              "version": "[2.0.0, )"
             }
           },
           "imports": [

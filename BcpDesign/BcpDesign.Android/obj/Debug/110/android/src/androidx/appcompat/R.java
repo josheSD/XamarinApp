@@ -35,12 +35,12 @@ public final class R {
 		public static final int fragment_fast_out_extra_slow_in = 0x7f010020;
 	}
 	public static final class animator {
-		public static final int fragment_close_enter = 0x7f0200e1;
-		public static final int fragment_close_exit = 0x7f0200e2;
-		public static final int fragment_fade_enter = 0x7f0200e3;
-		public static final int fragment_fade_exit = 0x7f0200e4;
-		public static final int fragment_open_enter = 0x7f0200e5;
-		public static final int fragment_open_exit = 0x7f0200e6;
+		public static final int fragment_close_enter = 0x7f020003;
+		public static final int fragment_close_exit = 0x7f020004;
+		public static final int fragment_fade_enter = 0x7f020005;
+		public static final int fragment_fade_exit = 0x7f020006;
+		public static final int fragment_open_enter = 0x7f020007;
+		public static final int fragment_open_exit = 0x7f020008;
 	}
 	public static final class attr {
 		public static final int actionBarDivider = 0x7f030004;
@@ -801,9 +801,9 @@ public final class R {
 	public static final class integer {
 		public static final int abc_config_activityDefaultDur = 0x7f090000;
 		public static final int abc_config_activityShortDur = 0x7f090001;
-		public static final int cancel_button_image_alpha = 0x7f090007;
-		public static final int config_tooltipAnimTime = 0x7f090009;
-		public static final int status_bar_notification_info_maxnum = 0x7f09001f;
+		public static final int cancel_button_image_alpha = 0x7f090004;
+		public static final int config_tooltipAnimTime = 0x7f090006;
+		public static final int status_bar_notification_info_maxnum = 0x7f09001c;
 	}
 	public static final class interpolator {
 		public static final int btn_checkbox_checked_mtrl_animation_interpolator_0 = 0x7f0a0000;

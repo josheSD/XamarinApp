@@ -11,12 +11,12 @@ public final class R {
 		public static final int fragment_fast_out_extra_slow_in = 0x7f010020;
 	}
 	public static final class animator {
-		public static final int fragment_close_enter = 0x7f0200e1;
-		public static final int fragment_close_exit = 0x7f0200e2;
-		public static final int fragment_fade_enter = 0x7f0200e3;
-		public static final int fragment_fade_exit = 0x7f0200e4;
-		public static final int fragment_open_enter = 0x7f0200e5;
-		public static final int fragment_open_exit = 0x7f0200e6;
+		public static final int fragment_close_enter = 0x7f020003;
+		public static final int fragment_close_exit = 0x7f020004;
+		public static final int fragment_fade_enter = 0x7f020005;
+		public static final int fragment_fade_exit = 0x7f020006;
+		public static final int fragment_open_enter = 0x7f020007;
+		public static final int fragment_open_exit = 0x7f020008;
 	}
 	public static final class attr {
 		public static final int alpha = 0x7f030032;
@@ -152,7 +152,7 @@ public final class R {
 		public static final int visible_removing_fragment_view_tag = 0x7f0801e5;
 	}
 	public static final class integer {
-		public static final int status_bar_notification_info_maxnum = 0x7f09001f;
+		public static final int status_bar_notification_info_maxnum = 0x7f09001c;
 	}
 	public static final class layout {
 		public static final int custom_dialog = 0x7f0b001f;

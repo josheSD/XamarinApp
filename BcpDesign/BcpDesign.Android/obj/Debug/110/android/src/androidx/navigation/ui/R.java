@@ -34,17 +34,17 @@ public final class R {
 		public static final int design_appbar_state_list_animator = 0x7f020000;
 		public static final int design_fab_hide_motion_spec = 0x7f020001;
 		public static final int design_fab_show_motion_spec = 0x7f020002;
-		public static final int mtrl_btn_state_list_anim = 0x7f0200eb;
-		public static final int mtrl_btn_unelevated_state_list_anim = 0x7f0200ec;
-		public static final int mtrl_chip_state_list_anim = 0x7f0200ee;
-		public static final int mtrl_fab_hide_motion_spec = 0x7f0200f4;
-		public static final int mtrl_fab_show_motion_spec = 0x7f0200f5;
-		public static final int mtrl_fab_transformation_sheet_collapse_spec = 0x7f0200f6;
-		public static final int mtrl_fab_transformation_sheet_expand_spec = 0x7f0200f7;
-		public static final int nav_default_enter_anim = 0x7f0200f8;
-		public static final int nav_default_exit_anim = 0x7f0200f9;
-		public static final int nav_default_pop_enter_anim = 0x7f0200fa;
-		public static final int nav_default_pop_exit_anim = 0x7f0200fb;
+		public static final int mtrl_btn_state_list_anim = 0x7f02000d;
+		public static final int mtrl_btn_unelevated_state_list_anim = 0x7f02000e;
+		public static final int mtrl_chip_state_list_anim = 0x7f020010;
+		public static final int mtrl_fab_hide_motion_spec = 0x7f020016;
+		public static final int mtrl_fab_show_motion_spec = 0x7f020017;
+		public static final int mtrl_fab_transformation_sheet_collapse_spec = 0x7f020018;
+		public static final int mtrl_fab_transformation_sheet_expand_spec = 0x7f020019;
+		public static final int nav_default_enter_anim = 0x7f02001a;
+		public static final int nav_default_exit_anim = 0x7f02001b;
+		public static final int nav_default_pop_enter_anim = 0x7f02001c;
+		public static final int nav_default_pop_exit_anim = 0x7f02001d;
 	}
 	public static final class attr {
 		public static final int action = 0x7f030003;
@@ -1187,20 +1187,20 @@ public final class R {
 	public static final class integer {
 		public static final int abc_config_activityDefaultDur = 0x7f090000;
 		public static final int abc_config_activityShortDur = 0x7f090001;
-		public static final int app_bar_elevation_anim_duration = 0x7f090005;
-		public static final int bottom_sheet_slide_duration = 0x7f090006;
-		public static final int cancel_button_image_alpha = 0x7f090007;
-		public static final int config_navAnimTime = 0x7f090008;
-		public static final int config_tooltipAnimTime = 0x7f090009;
-		public static final int design_snackbar_text_max_lines = 0x7f09000a;
-		public static final int design_tab_indicator_anim_duration_ms = 0x7f09000b;
-		public static final int hide_password_duration = 0x7f09000c;
-		public static final int mtrl_btn_anim_delay_ms = 0x7f090015;
-		public static final int mtrl_btn_anim_duration_ms = 0x7f090016;
-		public static final int mtrl_chip_anim_duration = 0x7f09001c;
-		public static final int mtrl_tab_indicator_anim_duration_ms = 0x7f09001d;
-		public static final int show_password_duration = 0x7f09001e;
-		public static final int status_bar_notification_info_maxnum = 0x7f09001f;
+		public static final int app_bar_elevation_anim_duration = 0x7f090002;
+		public static final int bottom_sheet_slide_duration = 0x7f090003;
+		public static final int cancel_button_image_alpha = 0x7f090004;
+		public static final int config_navAnimTime = 0x7f090005;
+		public static final int config_tooltipAnimTime = 0x7f090006;
+		public static final int design_snackbar_text_max_lines = 0x7f090007;
+		public static final int design_tab_indicator_anim_duration_ms = 0x7f090008;
+		public static final int hide_password_duration = 0x7f090009;
+		public static final int mtrl_btn_anim_delay_ms = 0x7f090012;
+		public static final int mtrl_btn_anim_duration_ms = 0x7f090013;
+		public static final int mtrl_chip_anim_duration = 0x7f090019;
+		public static final int mtrl_tab_indicator_anim_duration_ms = 0x7f09001a;
+		public static final int show_password_duration = 0x7f09001b;
+		public static final int status_bar_notification_info_maxnum = 0x7f09001c;
 	}
 	public static final class interpolator {
 		public static final int mtrl_fast_out_linear_in = 0x7f0a0007;

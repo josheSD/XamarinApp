@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:BcpDesign.Effects"
+             x:Class="BcpDesign.Views.TabDashboard"
+             NavigationPage.HasNavigationBar="False"
+             >
+    <ContentPage.Effects>
+        <local:StatusBarEffect
+            BackgroundColor="#fff"
+            isLight="True"
+            />
+    </ContentPage.Effects>
+    <ContentPage.Content>
+
+        <ScrollView>
+            <StackLayout BackgroundColor="White">
+                <Label
+                    Text="Nuevo"
+                    TextColor="Red"></Label>
+            </StackLayout>
+        </ScrollView>
+        
+    </ContentPage.Content>
+</ContentPage>

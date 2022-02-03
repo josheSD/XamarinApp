@@ -146,7 +146,7 @@ public final class R {
 		public static final int title = 0x7f0801c9;
 	}
 	public static final class integer {
-		public static final int status_bar_notification_info_maxnum = 0x7f09001f;
+		public static final int status_bar_notification_info_maxnum = 0x7f09001c;
 	}
 	public static final class layout {
 		public static final int browser_actions_context_menu_page = 0x7f0b001d;

@@ -34,7 +34,7 @@ public final class R {
 		public static final int title = 0x7f0801c9;
 	}
 	public static final class integer {
-		public static final int cancel_button_image_alpha = 0x7f090007;
+		public static final int cancel_button_image_alpha = 0x7f090004;
 	}
 	public static final class layout {
 		public static final int notification_media_action = 0x7f0b0061;

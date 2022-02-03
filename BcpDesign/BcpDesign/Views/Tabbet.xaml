@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+            xmlns:local="clr-namespace:BcpDesign.Effects"
+            x:Class="BcpDesign.Views.Tabbet"
+            NavigationPage.HasNavigationBar="False"
+            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core" 
+            xmlns:views="clr-namespace:BcpDesign.Views"
+            android:TabbedPage.ToolbarPlacement="Bottom"
+            >
+    <TabbedPage.Effects>
+        <local:StatusBarEffect 
+            BackgroundColor="#fff"
+            isLight="True"
+            />
+    </TabbedPage.Effects>
+    <!--Pages can be added as references or inline-->
+    <TabbedPage.Children>
+        <NavigationPage Title="Tab Page 01" Icon="icono01.png">
+            <x:Arguments>
+                <views:TabDashboard />
+            </x:Arguments>
+        </NavigationPage>
+        <NavigationPage Title="Tab Page 02">
+            <x:Arguments>
+                <views:TabFinance />
+            </x:Arguments>
+        </NavigationPage>
+        <NavigationPage Title="Tab Page 03">
+            <x:Arguments>
+                <views:TabCard />
+            </x:Arguments>
+        </NavigationPage>
+        <NavigationPage Title="Tab Page 04">
+            <x:Arguments>
+                <views:TabProfile/>
+            </x:Arguments>
+        </NavigationPage>
+    </TabbedPage.Children>
+    
+</TabbedPage>

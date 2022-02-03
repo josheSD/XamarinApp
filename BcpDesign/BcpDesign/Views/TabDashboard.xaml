@@ -14,10 +14,19 @@
     <ContentPage.Content>
 
         <ScrollView>
-            <StackLayout BackgroundColor="White">
-                <Label
-                    Text="Nuevo"
-                    TextColor="Red"></Label>
+            <StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+
+                    <Label
+                        Text="Good Morning"
+                        TextColor="#8B96A8"></Label>
+                    <Label
+                            Text="Good Morning"
+                            TextColor="#8B96A8"></Label>
+                    
+                </StackLayout>
+                
             </StackLayout>
         </ScrollView>
         

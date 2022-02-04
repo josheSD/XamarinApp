@@ -1,6 +1,9 @@
 BcpDesign.Droid.MainActivity, BcpDesign.Android;crc64539fda69a9df1019.MainActivity
 BcpDesign.Droid.MainActivity;crc64539fda69a9df1019.MainActivity
 bcpdesign.droid.MainActivity;crc64539fda69a9df1019.MainActivity
+BcpDesign.Droid.SplashActivity, BcpDesign.Android;crc64539fda69a9df1019.SplashActivity
+BcpDesign.Droid.SplashActivity;crc64539fda69a9df1019.SplashActivity
+bcpdesign.droid.SplashActivity;crc64539fda69a9df1019.SplashActivity
 BcpDesign.Droid.Renderers.StandardEntryRenderer, BcpDesign.Android;crc64cda6f550d9a8960f.StandardEntryRenderer
 BcpDesign.Droid.Renderers.StandardEntryRenderer;crc64cda6f550d9a8960f.StandardEntryRenderer
 bcpdesign.droid.renderers.StandardEntryRenderer;crc64cda6f550d9a8960f.StandardEntryRenderer

@@ -12,7 +12,9 @@ androidx.coordinatorlayout.widget.CoordinatorLayout;D:\Xamarin\BcpDesign\BcpDesi
 attr;D:\Xamarin\BcpDesign\BcpDesign\BcpDesign.Android\obj\Debug\110\lp\56\jl\res\values\attrs.xml
 background;obj\Debug\110\res\mipmap-anydpi-v26\icon.xml
 background;obj\Debug\110\res\mipmap-anydpi-v26\icon_round.xml
+bitmap;obj\Debug\110\res\drawable\splash_screen.xml
 cache-path;D:\Xamarin\BcpDesign\BcpDesign\BcpDesign.Android\obj\Debug\110\lp\55\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+color;obj\Debug\110\res\drawable\splash_screen.xml
 color;obj\Debug\110\res\values\colors.xml
 com.google.android.material.appbar.AppBarLayout;D:\Xamarin\BcpDesign\BcpDesign\BcpDesign.Android\obj\Debug\110\lp\56\jl\res\layout\flyoutcontent.xml
 com.google.android.material.appbar.AppBarLayout;D:\Xamarin\BcpDesign\BcpDesign\BcpDesign.Android\obj\Debug\110\lp\56\jl\res\layout\rootlayout.xml
@@ -28,6 +30,9 @@ foreground;obj\Debug\110\res\mipmap-anydpi-v26\icon.xml
 foreground;obj\Debug\110\res\mipmap-anydpi-v26\icon_round.xml
 FrameLayout;D:\Xamarin\BcpDesign\BcpDesign\BcpDesign.Android\obj\Debug\110\lp\56\jl\res\layout\bottomtablayout.xml
 item;D:\Xamarin\BcpDesign\BcpDesign\BcpDesign.Android\obj\Debug\110\lp\56\jl\res\values\styles.xml
+item;obj\Debug\110\res\drawable\splash_screen.xml
+item;obj\Debug\110\res\values\styles.xml
+layer-list;obj\Debug\110\res\drawable\splash_screen.xml
 LinearLayout;D:\Xamarin\BcpDesign\BcpDesign\BcpDesign.Android\obj\Debug\110\lp\56\jl\res\layout\bottomtablayout.xml
 paths;D:\Xamarin\BcpDesign\BcpDesign\BcpDesign.Android\obj\Debug\110\lp\55\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 resources;D:\Xamarin\BcpDesign\BcpDesign\BcpDesign.Android\obj\Debug\110\lp\56\jl\res\values\attrs.xml

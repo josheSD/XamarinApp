@@ -19,7 +19,8 @@
         <data android:scheme="msalde346d68-cf66-44d8-8aec-288e6bfaf205" android:host="auth" />
       </intent-filter>
     </activity>
-    <activity android:configChanges="orientation|smallestScreenSize|screenLayout|screenSize|uiMode" android:icon="@mipmap/icon" android:label="BcpDesign" android:theme="@style/MainTheme" android:name="crc64539fda69a9df1019.MainActivity" android:exported="true">
+    <activity android:configChanges="orientation|smallestScreenSize|screenLayout|screenSize|uiMode" android:icon="@mipmap/myicon" android:label="BcpDesign" android:theme="@style/MainTheme" android:name="crc64539fda69a9df1019.MainActivity" />
+    <activity android:icon="@mipmap/myicon" android:label="Xamarin" android:noHistory="true" android:theme="@style/SplashTheme" android:name="crc64539fda69a9df1019.SplashActivity" android:exported="true">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />

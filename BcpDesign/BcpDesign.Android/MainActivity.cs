@@ -5,6 +5,8 @@ using Android.Content.PM;
 using Android.Runtime;
 using Android.OS;
 using Plugin.CurrentActivity;
+using Android.Content;
+using Microsoft.Identity.Client;
 
 namespace BcpDesign.Droid
 {
@@ -20,7 +22,15 @@ namespace BcpDesign.Droid
             CrossCurrentActivity.Current.Init(this, savedInstanceState);
 
             LoadApplication(new App());
+            App.ParentWindow = this;
         }
+
+        protected override void OnActivityResult(int requestCode, Result resultCode, Intent data)
+        {
+            base.OnActivityResult(requestCode, resultCode, data);
+            AuthenticationContinuationHelper.SetAuthenticationContinuationEventArgs(requestCode,resultCode,data);
+        }
+
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
             Xamarin.Essentials.Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);

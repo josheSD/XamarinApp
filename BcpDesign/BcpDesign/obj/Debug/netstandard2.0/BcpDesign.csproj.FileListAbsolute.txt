@@ -1,7 +1,3 @@
-D:\Xamarin\BcpDesign\BcpDesign\BcpDesign\bin\Debug\netstandard2.0\BcpDesign.deps.json
-D:\Xamarin\BcpDesign\BcpDesign\BcpDesign\bin\Debug\netstandard2.0\BcpDesign.dll
-D:\Xamarin\BcpDesign\BcpDesign\BcpDesign\bin\Debug\netstandard2.0\ref\BcpDesign.dll
-D:\Xamarin\BcpDesign\BcpDesign\BcpDesign\bin\Debug\netstandard2.0\BcpDesign.pdb
 D:\Xamarin\BcpDesign\BcpDesign\BcpDesign\obj\Debug\netstandard2.0\BcpDesign.GeneratedMSBuildEditorConfig.editorconfig
 D:\Xamarin\BcpDesign\BcpDesign\BcpDesign\obj\Debug\netstandard2.0\App.xaml.g.cs
 D:\Xamarin\BcpDesign\BcpDesign\BcpDesign\obj\Debug\netstandard2.0\Views\SignIn.xaml.g.cs
@@ -15,8 +11,12 @@ D:\Xamarin\BcpDesign\BcpDesign\BcpDesign\obj\Debug\netstandard2.0\Views\Welcome.
 D:\Xamarin\BcpDesign\BcpDesign\BcpDesign\obj\Debug\netstandard2.0\BcpDesign.AssemblyInfoInputs.cache
 D:\Xamarin\BcpDesign\BcpDesign\BcpDesign\obj\Debug\netstandard2.0\BcpDesign.AssemblyInfo.cs
 D:\Xamarin\BcpDesign\BcpDesign\BcpDesign\obj\Debug\netstandard2.0\BcpDesign.csproj.CoreCompileInputs.cache
+D:\Xamarin\BcpDesign\BcpDesign\BcpDesign\obj\Debug\netstandard2.0\BcpDesign.csproj.AssemblyReference.cache
+D:\Xamarin\BcpDesign\BcpDesign\BcpDesign\bin\Debug\netstandard2.0\BcpDesign.deps.json
+D:\Xamarin\BcpDesign\BcpDesign\BcpDesign\bin\Debug\netstandard2.0\BcpDesign.dll
+D:\Xamarin\BcpDesign\BcpDesign\BcpDesign\bin\Debug\netstandard2.0\ref\BcpDesign.dll
+D:\Xamarin\BcpDesign\BcpDesign\BcpDesign\bin\Debug\netstandard2.0\BcpDesign.pdb
 D:\Xamarin\BcpDesign\BcpDesign\BcpDesign\obj\Debug\netstandard2.0\XamlC.stamp
 D:\Xamarin\BcpDesign\BcpDesign\BcpDesign\obj\Debug\netstandard2.0\BcpDesign.dll
 D:\Xamarin\BcpDesign\BcpDesign\BcpDesign\obj\Debug\netstandard2.0\ref\BcpDesign.dll
 D:\Xamarin\BcpDesign\BcpDesign\BcpDesign\obj\Debug\netstandard2.0\BcpDesign.pdb
-D:\Xamarin\BcpDesign\BcpDesign\BcpDesign\obj\Debug\netstandard2.0\BcpDesign.csproj.AssemblyReference.cache

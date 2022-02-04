@@ -21,7 +21,7 @@ namespace BcpDesign.Views
 
         private void EventDashboard(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new Tabbet());
+            //Navigation.PushAsync(new Tabbet());
         }
     }
 }

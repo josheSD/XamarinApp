@@ -39,7 +39,7 @@
                         FontAttributes="Bold"></Label>
 
                     <Button
-                        Text="Sign in with Google"
+                        Text="Sign in with Azure AD"
                         TextTransform="None"
                         FontSize="Body"
                         TextColor="#0040C1"
@@ -47,7 +47,7 @@
                         WidthRequest="200"
                         CornerRadius="15"
                         Margin="0,40,0,0"
-                        Clicked="EventSign"
+                        Clicked="EventSignAzureAd"
                         ></Button>
 
                     <Button

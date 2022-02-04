@@ -51,7 +51,7 @@
                         ></Button>
 
                     <Button
-                        Text="Create an account"
+                        Text="Salir de la cuenta"
                         TextTransform="None"
                         FontSize="Body"
                         BackgroundColor="#0040C1"

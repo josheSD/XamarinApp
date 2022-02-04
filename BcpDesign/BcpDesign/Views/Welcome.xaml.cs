@@ -43,8 +43,12 @@ namespace BcpDesign.Views
                     }
                     else
                     {
-                        authResult = await App.PCA.AcquireTokenSilent(App.Scopes, firstAccount)
-                                              .ExecuteAsync();
+                        authResult = await App.PCA.AcquireTokenInteractive(Constants.Scopes)
+                                                  .WithParentActivityOrWindow(App.ParentWindow)
+                                                  .WithUseEmbeddedWebView(true)
+                                                  .ExecuteAsync();
+
+                        ManejarResuesta();
                     }
 
                 }
@@ -52,7 +56,7 @@ namespace BcpDesign.Views
                 {
                     try
                     {
-                        authResult = await App.PCA.AcquireTokenInteractive(App.Scopes)
+                        authResult = await App.PCA.AcquireTokenInteractive(Constants.Scopes)
                                                   .WithParentActivityOrWindow(App.ParentWindow)
                                                   .WithUseEmbeddedWebView(true)
                                                   .ExecuteAsync();
@@ -80,9 +84,10 @@ namespace BcpDesign.Views
             Navigation.PushAsync(new Tabbet());
         }
 
-        private void EventSignUp(object sender, EventArgs e)
+        private async void EventSignUp(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new SignUp());
+            IEnumerable<IAccount> accounts = await App.PCA.GetAccountsAsync();
+            await App.PCA.RemoveAsync(accounts.FirstOrDefault());
         }
     }
 }

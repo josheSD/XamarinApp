@@ -7,11 +7,8 @@ namespace BcpDesign
 {
     public partial class App : Application
     {
-        public static readonly string ClientID = "de346d68-cf66-44d8-8aec-288e6bfaf205";
-        public static readonly string[] Scopes = { "User.Read" };
-        public static readonly string Username = string.Empty;
-        public static readonly IPublicClientApplication PCA = PublicClientApplicationBuilder.Create(ClientID)
-                        .WithRedirectUri($"msal{ClientID}://auth")
+        public static readonly IPublicClientApplication PCA = PublicClientApplicationBuilder.Create(Constants.ClientID)
+                        .WithRedirectUri($"msal{Constants.ClientID}://auth")
                         .Build();
         public static object ParentWindow { get; set; }
 
